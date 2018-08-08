@@ -12,8 +12,10 @@ for(let i=0;i<array.length;i++){
 	}
 	finalNumbers=numbers.split(" ").map(Number);
 	maxNumber=Math.max(...finalNumbers);
-	console.log(maxNumber);
+	if(maxNumber){
+		console.log(maxNumber);
+	}else{
+		console.log("-1");
+	}
 	
-
-
 
